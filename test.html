@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Style Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .logo {
+            font-size: 24px;
+        }
+        .menu {
+            list-style: none;
+            padding: 0;
+        }
+        .menu li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .menu li a {
+            color: white;
+            text-decoration: none;
+        }
+        .content {
+            padding: 20px;
+        }
+        .repo-list {
+            list-style: none;
+            padding: 0;
+        }
+        .repo-item {
+            margin-bottom: 10px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">GitHub Style</div>
+        <ul class="menu">
+            <li><a href="#">Repositories</a></li>
+            <li><a href="#">Stars</a></li>
+            <li><a href="#">Forks</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1>Welcome to GitHub Style Homepage</h1>
+        <p>This is a simple GitHub style homepage.</p>
+        <ul class="repo-list">
+            <li class="repo-item">Repo 1</li>
+            <li class="repo-item">Repo 2</li>
+            <li class="repo-item">Repo 3</li>
+            <!-- Add more repositories here -->
+        </ul>
+    </div>
+    <div class="footer">
+        <p>© 2024 GitHub Style. All rights reserved.</p>
+    </div>
+</body>
+</html>
